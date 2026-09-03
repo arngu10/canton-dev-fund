@@ -139,7 +139,7 @@ Production KYC, accreditation, and residency logic remains the responsibility of
 ## 9. Milestones and Deliverables
 
 ### Milestone 1: Open Architecture, Schema and DevNet Baseline
-**Target:** 4 weeks
+**Timeline:** Weeks 1–4
 **Funding:** 250,000 CC
 
 Deliverables:
@@ -164,7 +164,7 @@ Acceptance:
 - at least one external Canton builder or SIG reviewer gives documented feedback.
 
 ### Milestone 2: End to End Canton Transaction and Settlement Reference
-**Target:** 4 weeks after M1
+**Timeline:** Weeks 5–8
 **Funding:** 450,000 CC
 
 Deliverables:
@@ -188,7 +188,7 @@ Acceptance:
 - at least two external ecosystem reviewers or builders evaluate the flow.
 
 ### Milestone 3: Reuse Proof, Second Adapter and Builder Package
-**Target:** 4 weeks after M2
+**Timeline:** Weeks 9–12
 **Funding:** 300,000 CC
 
 Deliverables:
