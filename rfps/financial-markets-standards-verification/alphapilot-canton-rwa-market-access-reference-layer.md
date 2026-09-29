@@ -1,4 +1,4 @@
-# Development Fund Proposal: alphaPilot Canton RWA Market Access Reference Layer
+# Development Fund Proposal: AlphaPilot Canton RWA Market Access Reference Layer
 
 ## Dev Fund 2.0 Alignment
 
@@ -15,7 +15,7 @@
 **How this drives adoption:**
 - provide a cloneable Apache-2.0 starting point that reduces the time and specialist knowledge required to integrate a Canton RWA;
 - prove reuse with a second provider or asset using the same interfaces and conformance tests;
-- use alphaPilot as the first consuming application and pilot distribution surface while keeping the funded layer public and application-neutral;
+- use AlphaPilot as the first consuming application and pilot distribution surface while keeping the funded layer public and application-neutral;
 - require external builder review and reuse evidence through an integration, proof of concept, fork, or documented technical evaluation; and
 - publish setup, API, troubleshooting, and maintenance guidance so subsequent teams can move from discovery to a settled transaction without rebuilding the stack.
 
@@ -23,7 +23,7 @@ The result is a practical onboarding path from Canton RWA standards to working a
 
 
 ## Applicant
-**Organization:** alphaPilot
+**Organization:** AlphaPilot
 **Author / Primary Contact:** Abdul Adams
 **Champion:** Parth: Canton Foundation / accelerator
 **Suggested SIGs:** Financial Workflows & Composability; dApp Integration; Token Standards / Asset Standards
@@ -37,12 +37,12 @@ The result is a practical onboarding path from Canton RWA standards to working a
 **Working Funding Request:** 1,000,000 CC
 **Project Duration:** 12 weeks
 
-Funding is structured around three independently verifiable milestones, with the largest allocation attached to the end to end Canton transaction, settlement and portfolio-reconciliation implementation. The 1,000,000 CC request reflects the full engineering, open-source reference implementation, integration hardening, external reuse proof and developer enablement scope rather than a single proprietary alphaPilot integration.
+Funding is structured around three independently verifiable milestones, with the largest allocation attached to the end to end Canton transaction, settlement and portfolio-reconciliation implementation. The 1,000,000 CC request reflects the full engineering, open-source reference implementation, integration hardening, external reuse proof and developer enablement scope rather than a single proprietary AlphaPilot integration.
 
 ## Abstract
-alphaPilot proposes to build and open-source a reusable Canton RWA Market Access Reference Layer: a reference implementation showing how an application can discover a Canton-based real-world asset, normalize issuer and asset metadata, present the asset to an end user, submit an eligible investment or transaction through Canton-connected infrastructure, track the resulting transaction and settlement state, and reflect confirmed ownership in a portfolio.
+AlphaPilot proposes to build and open-source a reusable Canton RWA Market Access Reference Layer: a reference implementation showing how an application can discover a Canton-based real-world asset, normalize issuer and asset metadata, present the asset to an end user, submit an eligible investment or transaction through Canton-connected infrastructure, track the resulting transaction and settlement state, and reflect confirmed ownership in a portfolio.
 
-The first implementation will be demonstrated inside alphaPilot, but the funded work will be open and reusable by other Canton builders. The grant is not for alphaPilot's proprietary platform. It is for the reference integration layer, schemas, adapters, transaction state model, documentation, example application, and test flows that other teams can use when integrating Canton RWA products.
+The first implementation will be demonstrated inside AlphaPilot, but the funded work will be open and reusable by other Canton builders. The grant is not for AlphaPilot's proprietary platform. It is for the reference integration layer, schemas, adapters, transaction state model, documentation, example application, and test flows that other teams can use when integrating Canton RWA products.
 
 The project will start with one Canton-connected asset or DevNet reference asset and one end to end workflow, then generalize the integration so a second issuer or asset can be connected through the same interfaces.
 
@@ -99,10 +99,10 @@ No invented cost basis or P&L.
 ### E. Reference UI and Documentation
 Small reference interface demonstrating browse → asset detail → review → submit → status → confirmed portfolio holding. The reusable interfaces, schemas, backend patterns, tests, and documentation are the main public good outputs.
 
-## 4. Initial alphaPilot Demonstration
-alphaPilot is building a multi-asset trading intelligence and execution platform. For Canton, the first pilot is intentionally narrow: bring one regulated tokenized investment product into a Canton market experience, let a user understand the product and underlying asset, monitor it alongside their portfolio, and demonstrate the transaction and settlement lifecycle through Canton-connected infrastructure.
+## 4. Initial AlphaPilot Demonstration
+AlphaPilot is building a multi-asset trading intelligence and execution platform. For Canton, the first pilot is intentionally narrow: bring one regulated tokenized investment product into a Canton market experience, let a user understand the product and underlying asset, monitor it alongside their portfolio, and demonstrate the transaction and settlement lifecycle through Canton-connected infrastructure.
 
-The existing alphaPilot x Canton concept materials identify Franklin Templeton, 1exchange, and Archax as potential market-infrastructure/design-partner routes and S&P Dow Jones Indices as a potential benchmark/data layer. These are proposed paths, not confirmed commitments.
+The existing AlphaPilot x Canton concept materials identify Franklin Templeton, 1exchange, and Archax as potential market-infrastructure/design-partner routes and S&P Dow Jones Indices as a potential benchmark/data layer. These are proposed paths, not confirmed commitments.
 
 The public reference does not depend on any one named partner. If partner access is not ready, a clearly labelled Canton DevNet or reference asset will be used.
 
@@ -131,7 +131,7 @@ The reference will compose existing Canton APIs, standards and provider interfac
 - adoption/feedback report.
 
 ### Out of Scope
-- alphaPilot proprietary market ranking logic;
+- AlphaPilot proprietary market ranking logic;
 - proprietary AI models/prompts;
 - proprietary Smart Money intelligence;
 - proprietary standard crypto execution infrastructure;
@@ -142,7 +142,7 @@ The reference will compose existing Canton APIs, standards and provider interfac
 - inventing a new RWA token standard where existing Canton standards apply.
 
 ## 7. Strategy and Automation Boundary
-The longer-term alphaPilot product may let users build strategies around supported assets. For the public reference, automation is limited to safe state based patterns such as monitoring asset availability, preparing an action when a user condition is met, pausing when eligibility or status changes, and monitoring submitted transactions.
+The longer-term AlphaPilot product may let users build strategies around supported assets. For the public reference, automation is limited to safe state based patterns such as monitoring asset availability, preparing an action when a user condition is met, pausing when eligibility or status changes, and monitoring submitted transactions.
 
 Automated execution is only in scope if the selected Canton infrastructure provides an explicit secure user authorized mechanism. Otherwise final user approval is required.
 
@@ -219,7 +219,7 @@ Deliverables:
 - reference API docs;
 - architecture diagrams;
 - adapter conformance tests;
-- alphaPilot integration consuming the public reference;
+- AlphaPilot integration consuming the public reference;
 - ecosystem feedback report;
 - public demo;
 - maintenance plan.
@@ -227,7 +227,7 @@ Deliverables:
 Acceptance:
 - second integration reuses the same interfaces;
 - at least one external builder shows reuse via fork, proof of concept, integration or documented evaluation;
-- alphaPilot consumes the public reference rather than a private incompatible version;
+- AlphaPilot consumes the public reference rather than a private incompatible version;
 - another builder can implement an adapter from the docs;
 - versioning and maintenance ownership documented.
 
@@ -245,12 +245,12 @@ Evidence:
 - technical reviews;
 - forks/integrations;
 - second adapter;
-- alphaPilot production/pilot use;
+- AlphaPilot production/pilot use;
 - builder feedback;
 - external issues/PRs.
 
 ## 11. Sustainability
-alphaPilot will maintain the reference repository after the grant period with documented maintainers, releases, compatibility notes, issue handling, security reporting instructions and at least 12 months of best-effort maintenance after Milestone 3.
+AlphaPilot will maintain the reference repository after the grant period with documented maintainers, releases, compatibility notes, issue handling, security reporting instructions and at least 12 months of best-effort maintenance after Milestone 3.
 
 ## 12. Team
 **Abdul Adams: Founder:** Product strategy, application design, ecosystem coordination and delivery ownership.
@@ -286,7 +286,7 @@ These are proposed routes only and must not be represented as signed integration
 
 ## 16. Funding Rationale
 
-The 1,000,000 CC request is intended to fund a complete public good implementation, not only an alphaPilot feature.
+The 1,000,000 CC request is intended to fund a complete public good implementation, not only an AlphaPilot feature.
 
 The funded scope includes:
 - reusable application and provider interfaces;
@@ -300,7 +300,7 @@ The funded scope includes:
 - ecosystem reuse proof;
 - post-delivery maintenance and compatibility work.
 
-The milestone structure deliberately places 45% of the funding on the end to end transaction and settlement implementation because this is the most technically demanding and most valuable engineering component. The final 30% is tied to reuse and adoption evidence rather than alphaPilot feature completion alone.
+The milestone structure deliberately places 45% of the funding on the end to end transaction and settlement implementation because this is the most technically demanding and most valuable engineering component. The final 30% is tied to reuse and adoption evidence rather than AlphaPilot feature completion alone.
 
 The funding request reflects the work required to deliver a useful open-source Canton reference implementation that other teams can actually use.
 
@@ -311,4 +311,4 @@ Proposal text in the Canton Development Fund repository follows the repository's
 ## 18. End Result
 A Canton application builder can clone the reference, connect a Canton RWA asset through a documented adapter, display verified product data, submit a supported transaction, track real settlement state, and reconcile confirmed ownership into a portfolio.
 
-alphaPilot serves as the first consuming application and adoption proof, while the public output remains reusable by other Canton builders without requiring alphaPilot's proprietary platform.
+AlphaPilot serves as the first consuming application and adoption proof, while the public output remains reusable by other Canton builders without requiring AlphaPilot's proprietary platform.
