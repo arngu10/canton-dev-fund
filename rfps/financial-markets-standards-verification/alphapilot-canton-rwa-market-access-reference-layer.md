@@ -1,5 +1,27 @@
 # Development Fund Proposal: alphaPilot Canton RWA Market Access Reference Layer
 
+## Dev Fund 2.0 Alignment
+
+**Relevant RFP category:** **Financial Markets, Standards & Verification → RWA Standards → Daml and Institutional RWA Workflow Standards** (RFP 12 / `rfp-12:rwa-standards`).
+
+**Why the ecosystem needs this:** Canton provides the network and privacy infrastructure for institutional assets, but application teams still have to independently bridge issuer metadata, eligibility and supported actions, transaction submission, settlement status, and confirmed holdings. Rebuilding these layers for every issuer and application increases integration time and cost, produces incompatible asset and transaction-state models, and slows real assets from becoming usable across the network. This project turns that repeated work into an open, provider-neutral reference implementation instead of another proprietary connector.
+
+**Who benefits:**
+- **RWA issuers and market-infrastructure providers** gain a documented, repeatable path for making assets usable by Canton applications without bespoke frontend integrations for every distribution partner.
+- **Canton dApp builders, wallets, portfolio tools, and market-access applications** gain reusable schemas, adapter interfaces, transaction and settlement state models, conformance tests, and a working end-to-end example.
+- **Institutions and eligible end users** gain clearer asset information and more reliable transaction, settlement, and portfolio experiences across applications.
+- **The Canton ecosystem** gains faster application launches, broader distribution for Canton-native assets, less fragmented integration work, and more real transaction activity.
+
+**How this drives adoption:**
+- provide a cloneable Apache-2.0 starting point that reduces the time and specialist knowledge required to integrate a Canton RWA;
+- prove reuse with a second provider or asset using the same interfaces and conformance tests;
+- use alphaPilot as the first consuming application and pilot distribution surface while keeping the funded layer public and application-neutral;
+- require external builder review and reuse evidence through an integration, proof of concept, fork, or documented technical evaluation; and
+- publish setup, API, troubleshooting, and maintenance guidance so subsequent teams can move from discovery to a settled transaction without rebuilding the stack.
+
+The result is a practical onboarding path from Canton RWA standards to working applications: more issuers can expose assets through reusable interfaces, more builders can ship interoperable products, and those products can generate sustained Canton transaction and settlement activity.
+
+
 ## Applicant
 **Organization:** alphaPilot
 **Author / Primary Contact:** Abdul Adams
